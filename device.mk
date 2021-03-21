@@ -15,7 +15,7 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/channel/channel-vendor.mk)
+$(call inherit-product-if-exists, vendor/moto/channel/channel-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
@@ -23,7 +23,7 @@ $(call inherit-product-if-exists, vendor/motorola/channel/channel-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-ev
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
@@ -73,4 +73,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-channel.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-channel.conf
 
 # Inherit from motorola sdm632-common
-$(call inherit-product, device/motorola/sdm632-common/common.mk)
+$(call inherit-product, device/moto/sdm632-common/common.mk)

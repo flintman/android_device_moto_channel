@@ -15,9 +15,9 @@
 #
 
 # Inherit from motorola sdm632-common
--include device/motorola/sdm632-common/BoardConfigCommon.mk
+-include device/moto/sdm632-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/channel
+DEVICE_PATH := device/moto/channel
 
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := channel
@@ -46,4 +46,4 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # inherit from the proprietary version
--include vendor/motorola/channel/BoardConfigVendor.mk
+-include vendor/moto/channel/BoardConfigVendor.mk

@@ -21,7 +21,7 @@ cc_library_static {
     include_dirs: [
         "system/core/base/include",
         "system/core/init",
-        "device/motorola/sdm632-common"
+        "device/moto/sdm632-common"
     ],
     shared_libs: [
         "libbase",
