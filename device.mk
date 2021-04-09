@@ -15,7 +15,8 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/moto/channel/channel-vendor.mk)
+$(call inherit-product, vendor/moto/channel/channel-vendor.mk)
+
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
