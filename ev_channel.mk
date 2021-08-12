@@ -28,8 +28,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Bootanimation
 BOOT_ANIMATION_SIZE := 1080p
 
-WITH_GMS := true
-
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := channel
 PRODUCT_MANUFACTURER := motorola
