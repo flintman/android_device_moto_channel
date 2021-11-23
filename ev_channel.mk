@@ -42,3 +42,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := motorola/channel_retail/channel:9/PPY29.148-140/687ae:user/release-keys
 
 PRODUCT_CODENAME := Modio
+
+# Inherit from motorola sdm632-common
+$(call inherit-product, device/moto/sdm632-common/common.mk)

@@ -75,5 +75,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-channel-NA_TMO.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-channel-NA_TMO.conf \
     $(LOCAL_PATH)/configs/thermal-engine-channel.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-channel.conf
 
-# Inherit from motorola sdm632-common
-$(call inherit-product, device/moto/sdm632-common/common.mk)
